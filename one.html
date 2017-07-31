@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 5.3.4.2 (Linux)"/>
+	<meta name="created" content="2017-07-31T11:46:17.469985776"/>
+	<meta name="changed" content="2017-07-31T12:40:51.751010302"/>
+	<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 120% }
+	</style>
+</head>
+<body lang="en-US" dir="ltr">
+<ol>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"> <font size="4" style="font-size: 16pt"><b>Install
+	Apache on your machine</b></font></p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"> <font size="4" style="font-size: 16pt"><b>Create
+	two virtual host ( Name Based )</b></font></p>
+	<p style="margin-bottom: 0in; line-height: 100%"><font size="4" style="font-size: 16pt"><b>	a.
+	one with name =&gt; one.&lt;yourloginid&gt;.com</b></font></p>
+	<p style="margin-bottom: 0in; line-height: 100%"><font size="4" style="font-size: 16pt"><b>	b.
+	other with name =&gt; two.&lt;yourloginid&gt;.com</b></font></p>
+	<p style="margin-bottom: 0in; line-height: 100%">       <font size="4" style="font-size: 16pt"><b>=&gt;
+	For name resolution use /etc/hosts file.</b></font></p>
+	<ol>
+		<ol>
+			<p style="margin-bottom: 0in; line-height: 100%"><font size="4" style="font-size: 16pt"><b>=&gt;
+			 create index.html for both vhosts and put the content
+			one.&lt;yourloginid&gt;.com for 1<sup>st</sup> one and
+			two.&lt;yourloginid&gt;.com for 2<sup>nd</sup>.</b></font></p>
+		</ol>
+	</ol>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"> <font size="4" style="font-size: 16pt"><b>on
+	Virtual host “two”, create a directory named “protected” and
+	deny access to this.</b></font></p>
+	<p style="margin-bottom: 0in; line-height: 100%"></p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"> <font size="4" style="font-size: 16pt"><b>Disable
+	directory list on 1<sup>st</sup> virtual host ( one )</b></font></p>
+	<p style="margin-bottom: 0in; line-height: 100%">  <font size="4" style="font-size: 16pt"><b>=&gt;
+	Directory listing should be ON on 2<sup>nd</sup> virtual  	  	host</b></font></p>
+	<p style="margin-bottom: 0in; line-height: 100%"></p>
+	<li/>
+<p style="margin-bottom: 0in; line-height: 100%"> <font size="4" style="font-size: 16pt"><b>Hide
+	apache version on all</b></font></p>
+</ol>
+</body>
+</html>
